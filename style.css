@@ -152,6 +152,7 @@ p {
     }
     .search-engine-optimization, .online-reputation-management, .social-media-marketing{
         height: fit-content;
+        width: fit-content;
 
     }
     .benefits{
@@ -171,3 +172,45 @@ p {
         display: block;
 }
 }
+
+@media screen and (max-width: 900px) {
+    .hero{
+        height: auto;
+    }
+    .header{
+        height: auto;
+    }
+    .benefits{
+        width: fit-content;
+    }
+    .search-engine-optimization, .online-reputation-management, .social-media-marketing{
+        height: fit-content;
+        
+    }
+    nav{
+        display: flex;
+    }
+    nav{    
+    font-size: 1.5em;
+    display: flex;
+    justify-content: row;
+    font-size: 15px;
+
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .search-engine-optimization, .online-reputation-management, .social-media-marketing
+    {
+        height: fit-content;
+        width: min-content;}
+
+
+        nav{    
+            font-size: 1.5em;
+            display: flex;
+            justify-content: row;
+            font-size: 15px;
+}
+}
+
